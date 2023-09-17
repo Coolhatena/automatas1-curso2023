@@ -1,0 +1,66 @@
+html, body {
+    overflow: auto;
+	min-height:100%;
+}
+
+html { 
+	font-size: 62.5% 
+}
+
+body {
+	background: rgb(183,108,242);
+	background: linear-gradient(90deg, rgba(183,108,242,1) 0%, rgba(100,100,195,1) 53%, rgba(233,0,255,1) 100%);
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+	height:100vh;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+}
+
+input {
+	width: 25%;
+	margin: 1rem 0;
+	padding: 1rem;
+	border-radius: 2rem;
+	border: 1px solid #000;
+}
+
+textarea {
+	width: 25%;
+	min-width: 20%;
+	height: 10%;
+	resize: none;
+	margin: 1rem 0;
+	padding: 1.5rem;
+	border-radius: 1rem;
+	border: 1px solid #000;
+}
+
+button {
+	padding: 1rem 1.5rem;
+	border-radius: 2rem;
+	border: none;
+	color: #fff;
+	background-color: rgba(183,108,242,1);
+	font-size: 1.5rem;
+	width: fit-content;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: rgba(113,68,149,1);
+}
+
+p {
+	font-size: 2rem;
+}
