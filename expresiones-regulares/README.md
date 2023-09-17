@@ -5,13 +5,13 @@
 
 ## Correr el proyecto:
 * `npm i` ó `npm install` para instalar las dependencias.
-* `npm run dev` para generar el servidor local desde el cual se podra acceder al proyecto.
+* `npm run dev` para generar el servidor local desde el cual se podrá acceder al proyecto.
 
 ## Código
-Para realizar esta solucion, decidi seguir el enfoque al que invita Vite con su proyecto default: HTML inyectado desde Javascript hacia un archivo `Index.html` basico, esto ya que la mayoria de componentes de la pagina debian ser manipulados desde Javascript de cualquier manera, por lo que crearlos directamente en este resultó mas comodo.
+Para realizar esta solucion, decidi seguir el enfoque al que invita Vite con su proyecto default: HTML inyectado desde Javascript hacía un archivo `Index.html` básico, esto ya que la mayoría de componentes de la página tenían que ser manipulados desde Javascript de cualquier manera, por lo que crearlos directamente en este resultó más cómodo.
 
-La solucion de divide en 3 partes: 
+La solución de divide en 3 partes: 
 
-* `Index.html`/`style.css`: Estos son los archivos basicos de un proyecto web, se utilizaron para el maquetado y estilos.
-* `main.js`: A traves de este modulo se generan los elementos del formulario html, asi como tambien la funcion manejadora del botón del formulario.
-* `assertRegex.js`: Este modulo fue creado para extrar logica abstracta del archivo main.js; En este se declara la funcion que prueba la cadena que introduzca el usuario utilizando el regex dado.
+* `Index.html`/`style.css`: Estos son los archivos básicos de un proyecto web, se utilizaron para el maquetado y estilos.
+* `main.js`: A través de este módulo se generan los elementos del formulario html, así como también la función manejadora del botón del formulario.
+* `assertRegex.js`: Este módulo fue creado para extraer lógica abstracta del archivo main.js; En este se declara la función que prueba la cadena que introduzca el usuario utilizando el regex dado.
