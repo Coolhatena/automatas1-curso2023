@@ -6,7 +6,7 @@ const displayData = (isMatch, matches) => {
 	paragraph.textContent = paragraphText;
 
 	if ( isMatch ) {
-		let matchText = "Coincidencias: ";
+		let matchText = `${matches.length} Coincidencia${matches.length > 1? "s":""}: `;
 		matches.forEach( (match, i, array) => {
 			matchText += `${match}${(i < array.length - 1)? "," : ""} `
 		});
