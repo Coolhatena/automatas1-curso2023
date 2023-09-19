@@ -29,6 +29,7 @@ h1 {
 
 input {
 	width: 25%;
+	min-width: 10rem;
 	margin: 1rem 0;
 	padding: 1rem;
 	border-radius: 2rem;
@@ -37,13 +38,18 @@ input {
 
 textarea {
 	width: 25%;
-	min-width: 20%;
+	min-width: 7rem;
 	height: 10%;
 	resize: none;
 	margin: 1rem 0;
 	padding: 1.5rem;
 	border-radius: 1rem;
 	border: 1px solid #000;
+}
+
+.results {
+	background-color: #282828;
+	color: #fff;
 }
 
 button {
@@ -63,4 +69,5 @@ button:hover {
 
 p {
 	font-size: 2rem;
+	text-align: center;
 }
