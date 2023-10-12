@@ -13,9 +13,7 @@ const Ejercicio2 = () => {
 	const matriz = [
 		[1, 0, 200],
 		[2, 0, 200],
-		[2, 3, 200],
-		[1, 4, 200],
-		[4, 4, 200]
+		[2, 2, 200]
 	]
 	
 	const analizar = () => {
@@ -50,7 +48,7 @@ const Ejercicio2 = () => {
 			i++;
 		}
 		
-		if (estado == 4){
+		if (estado == 0){
 			setResultado('valida')
 			console.log('Valida')
 		} else {
@@ -61,7 +59,7 @@ const Ejercicio2 = () => {
 
 	return (
 		<div className='flex flex-col items-center'>
-			<p className='mt-2'>Ejercicio 2 - Reconocer palabras de {"{"}a, b{"}"} que contengan "aabb"</p>
+			<p className='mt-2'>Ejercicio 4 - Palabras de {"{"}a, b{"}"} donde cada "a" debe ser seguida por una "b"</p>
 			<input className="p-2 border-2 border-[#49585f] rounded-md w-56 mt-4" type="text" placeholder='Coloca la entrada' onChange={handleChange} />
 			<button className='p-2 bg-slate-400 rounded-md mt-2' onClick={analizar}>Analiza la entrada</button>
 			{resultado != ''? <p className='mt-2'>Palabra {resultado}</p> : null}

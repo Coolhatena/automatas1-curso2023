@@ -22,6 +22,9 @@ const Header = () => {
 					<li>
 						<Link href='/ejercicio3'>Ejercicio 03</Link>
 					</li>
+					<li>
+						<Link href='/ejercicio4'>Ejercicio 04</Link>
+					</li>
 				</ul>
 			</nav>
 
