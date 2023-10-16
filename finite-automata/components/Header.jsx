@@ -11,19 +11,19 @@ const Header = () => {
 			<nav>
 				<ul className='flex justify-evenly uppercase'>
 					<li>
-						<Link href='/'>Inicio</Link>
+						<Link className='text-center' href='/'>Inicio</Link>
 					</li>
 					<li>
-						<Link href='/ejercicio1'>Ejercicio 01</Link>
+						<Link className='text-center' href='/ejercicio1'>Ejercicio 01</Link>
 					</li>
 					<li>
-						<Link href='/ejercicio2'>Ejercicio 02</Link>
+						<Link className='text-center' href='/ejercicio2'>Ejercicio 02</Link>
 					</li>
 					<li>
-						<Link href='/ejercicio3'>Ejercicio 03</Link>
+						<Link className='text-center' href='/ejercicio3'>Ejercicio 03</Link>
 					</li>
 					<li>
-						<Link href='/ejercicio4'>Ejercicio 04</Link>
+						<Link className='text-center' href='/ejercicio4'>Ejercicio 04</Link>
 					</li>
 				</ul>
 			</nav>
