@@ -5,7 +5,7 @@ const Header = () => {
   return (
 	<header className='bg-purple-600 p-9 space-y-5 text-white'>
 			<div>
-				<h1 className='text-3xl text-center'>AUTOMATAS FINITOS DETERMINISTAS</h1>
+				<h1 className='text-3xl text-center'>DFA - AUTOMATAS FINITOS DETERMINISTAS</h1>
 			</div>
 
 			<nav>
