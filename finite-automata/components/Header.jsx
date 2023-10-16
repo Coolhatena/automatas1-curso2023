@@ -10,20 +10,20 @@ const Header = () => {
 
 			<nav>
 				<ul className='flex justify-evenly uppercase'>
-					<li>
-						<Link className='text-center' href='/'>Inicio</Link>
+					<li className='text-center'>
+						<Link href='/'>Inicio</Link>
 					</li>
-					<li>
-						<Link className='text-center' href='/ejercicio1'>Ejercicio 01</Link>
+					<li className='text-center'>
+						<Link href='/ejercicio1'>Ejercicio 01</Link>
 					</li>
-					<li>
-						<Link className='text-center' href='/ejercicio2'>Ejercicio 02</Link>
+					<li className='text-center'>
+						<Link href='/ejercicio2'>Ejercicio 02</Link>
 					</li>
-					<li>
-						<Link className='text-center' href='/ejercicio3'>Ejercicio 03</Link>
+					<li className='text-center'>
+						<Link href='/ejercicio3'>Ejercicio 03</Link>
 					</li>
-					<li>
-						<Link className='text-center' href='/ejercicio4'>Ejercicio 04</Link>
+					<li className='text-center'>
+						<Link href='/ejercicio4'>Ejercicio 04</Link>
 					</li>
 				</ul>
 			</nav>
